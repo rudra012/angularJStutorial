@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <title>Angular Demo</title>
     <script src="js/angular.min.js"></script>
-</head>`
+</head>
 <body ng-app>
+
     <div>
-        10+20 = {{10+20}}
+        <!--{{ }} is binding expressions -->
+        10+20 = {{ 10+20 }}
     </div>
+    <div>
+        1==2 : {{ 1==2 }}
+    </div>
+    <div>
+        {{ {'name': 'rudra', 'lang': 'hindi'}.name}}
+    </div>
+    <div>
+        {{['shailesh','pavan','janak'][1]}}
+    </div>
+
 </body>
 </html>
